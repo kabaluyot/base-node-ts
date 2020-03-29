@@ -1,7 +1,7 @@
 # A Base Template for Developing NodeJS Projects with Typescript
 
 ## For Development (Hot Reload):
-- npm run start:dev
+- npm run serve
 
 ## For Test:
 - npm run lint
