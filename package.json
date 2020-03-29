@@ -1,7 +1,7 @@
 {
-  "name": "investa-test",
+  "name": "base-node-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Base Template for Developing NodeJS Projects with Typescript",
   "main": "index.js",
   "scripts": {
     "serve": "nodemon",
@@ -11,8 +11,8 @@
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Karl Anthony Baluyot",
+  "license": "MIT",
   "dependencies": {
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
