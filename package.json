@@ -4,9 +4,9 @@
   "description": "A Base Template for Developing NodeJS Projects with Typescript",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon",
+    "serve": "npm run lint-and-fix && nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf ./build && tsc",
+    "build": "npm run lint-and-fix && rimraf ./build && tsc",
     "start": "npm run build && node build/index.js",
     "lint": "eslint src/ --ext .ts,.js",
     "lint-and-fix": "eslint src/ --ext .ts,.js --fix"
