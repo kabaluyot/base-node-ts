@@ -8,8 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node build/index.js",
-    "lint": "eslint . --ext .ts",
-    "lint-and-fix": "eslint . --ext .ts --fix"
+    "lint": "eslint src/ --ext .ts,.js",
+    "lint-and-fix": "eslint src/ --ext .ts,.js --fix"
   },
   "author": "Karl Anthony Baluyot",
   "license": "MIT",
