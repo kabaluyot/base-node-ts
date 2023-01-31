@@ -19,7 +19,7 @@
     "kafka-node": "^5.0.0",
     "prettier": "^2.0.2",
     "socket-io": "^1.0.0",
-    "socket.io": "^2.4.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
     "@types/node": "^13.9.5",
